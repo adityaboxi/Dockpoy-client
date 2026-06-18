@@ -127,7 +127,7 @@ const url=import.meta.env.VITE_API_URL || 'http://localhost:8080/container';
                 onClick={() => navigator.clipboard.writeText(`http://${result.domain}`)}
                 className="ml-auto text-xs bg-white/10 hover:bg-white/20 text-gray-300 px-3 py-1 rounded-full transition"
               >
-                📋 Copyy
+                📋 Copy
               </button>
             </div>
           </div>
